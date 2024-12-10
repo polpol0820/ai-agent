@@ -1,0 +1,126 @@
+{
+    "modules": [
+        {
+            "module": [
+                "math"
+            ],
+            "file": "./example_project\\module1.py"
+        },
+        {
+            "module": "utils",
+            "file": "./example_project\\module1.py"
+        },
+        {
+            "module": [
+                "time"
+            ],
+            "file": "./example_project\\module2.py"
+        }
+    ],
+    "classes": [
+        {
+            "name": "BaseClass",
+            "methods": [
+                "base_method"
+            ],
+            "docstring": "ベースクラスです。このクラスを継承して使用します。",
+            "file": "./example_project\\module1.py",
+            "line_start": 4,
+            "line_end": 9
+        },
+        {
+            "name": "DerivedClass",
+            "methods": [
+                "__init__",
+                "calculate_square",
+                "use_helper"
+            ],
+            "docstring": "DerivedClassはBaseClassを拡張し、新しい機能を追加します。",
+            "file": "./example_project\\module1.py",
+            "line_start": 11,
+            "line_end": 27
+        }
+    ],
+    "functions": [
+        {
+            "name": "base_method",
+            "parameters": [
+                "self"
+            ],
+            "docstring": "ベースメソッド",
+            "file": "./example_project\\module1.py",
+            "line_start": 7,
+            "line_end": 9
+        },
+        {
+            "name": "__init__",
+            "parameters": [
+                "self",
+                "value"
+            ],
+            "docstring": "コンストラクタ\n引数:\n    value (int): 初期値",
+            "file": "./example_project\\module1.py",
+            "line_start": 14,
+            "line_end": 19
+        },
+        {
+            "name": "calculate_square",
+            "parameters": [
+                "self"
+            ],
+            "docstring": "値の平方を計算します。",
+            "file": "./example_project\\module1.py",
+            "line_start": 21,
+            "line_end": 23
+        },
+        {
+            "name": "use_helper",
+            "parameters": [
+                "self"
+            ],
+            "docstring": "外部モジュールの関数を使用します。",
+            "file": "./example_project\\module1.py",
+            "line_start": 25,
+            "line_end": 27
+        },
+        {
+            "name": "timed_function",
+            "parameters": [
+                "func"
+            ],
+            "docstring": "関数の実行時間を計測するデコレータ",
+            "file": "./example_project\\module2.py",
+            "line_start": 3,
+            "line_end": 11
+        },
+        {
+            "name": "complex_calculation",
+            "parameters": [
+                "a",
+                "b"
+            ],
+            "docstring": "複雑な計算を行う関数",
+            "file": "./example_project\\module2.py",
+            "line_start": 14,
+            "line_end": 19
+        },
+        {
+            "name": "wrapper",
+            "parameters": [],
+            "docstring": null,
+            "file": "./example_project\\module2.py",
+            "line_start": 5,
+            "line_end": 10
+        },
+        {
+            "name": "helper_function",
+            "parameters": [
+                "x"
+            ],
+            "docstring": "外部ヘルパー関数\n引数:\n    x (int): 処理する値\n戻り値:\n    int: 値に2を掛けた結果",
+            "file": "./example_project\\utils.py",
+            "line_start": 1,
+            "line_end": 8
+        }
+    ]
+}
